@@ -7,7 +7,7 @@ theme: your-theme
 ---
 
 
-![bg right](./img/what.gif)
+![bg right](./assets/what.gif)
 #  How I Learned to Stop Worrying &... <br> Love the _STIR stack_?
 Full Stack DFW
 2022.02.09
@@ -26,7 +26,7 @@ Chris Reed
 
 ---
 
-![bg contain](img/fluoridation.gif)
+![bg contain](./assets/fluoridation.gif)
 
 ---
 
@@ -42,7 +42,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 
 ---
 
-![bg contain](img/wee.gif)
+![bg contain](./assets/wee.gif)
 
 ---
 
@@ -62,7 +62,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 
 ---
 
-![bg](img/stress.gif)
+![bg](./assets/stress.gif)
 
 ---
 
@@ -84,7 +84,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 
 ---
 
-![bg contain](img/yes.gif)
+![bg contain](./assets/yes.gif)
 
 ---
 
@@ -102,7 +102,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 - Community support
 - Runway
 
-![bg right contain](img/power.gif)
+![bg right contain](./assets/power.gif)
 
 ---
 
@@ -112,7 +112,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 - 🤯 routing and state side effects
 - Cowboy imperative crap
 
-![bg left contain](img/negative.gif)
+![bg left contain](./assets/negative.gif)
 
 ---
 
@@ -122,7 +122,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 - Reactivity (c.f. Don Norman and Jakob Nielson)
 - Consistency
 
-![bg right contain](img/toes.gif)
+![bg right contain](./assets/toes.gif)
 
 ---
 
@@ -131,7 +131,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 - Failed actions
 - Wasted time
 
-![bg left contain](img/cannotfight.gif)
+![bg left contain](./assets/cannotfight.gif)
 
 ---
 
@@ -141,7 +141,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 - Fast change
 
 
-![bg right contain](img/yeehaw.gifv)
+![bg right contain](./assets/yeehaw.gifv)
 
 ---
 
@@ -150,15 +150,15 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 - Horizontal teams
 - Bugs 
 
-![bg left contain](img/blast.gif)
+![bg left contain](./assets/blast.gif)
 
 ---
 
-![bg contain](img/prevert.gif)
+![bg contain](./assets/prevert.gif)
 
 ---
 
-![bg left](./img/chris.jpg)
+![bg left](./assets/chris.jpg)
 # Who am I?
 I'm Chris Reed, a principal at [Super Basic](https://www.superbasic.xyz) and you can reach me [@seereadnow](https://twitter.com/seereadnow).
 
@@ -177,7 +177,7 @@ I'm Chris Reed, a principal at [Super Basic](https://www.superbasic.xyz) and you
 - Inertia.js
 - Ruby on Rails
 
-![bg right](img/logos.png)
+![bg right](./assets/logos.png)
 
 
 ---
@@ -338,7 +338,7 @@ end
 
 ---
 
-![bg](img/history.gif)
+![bg](./assets/history.gif)
 
 ---
 
@@ -346,8 +346,9 @@ end
 - Let me know how to improve the talk!
 - [Contribute to the repo](https://github.com/superbasicxyz/stirstack)
 - Tweet your experience w/ #STIRstack
-![bg right](img/secret.gif)
 - Ask a friend to check out [fullstackdfw.com](https://www.fullstackdfw.com)
+
+![bg right](./assets/secret.gif)
 
 ---
 
