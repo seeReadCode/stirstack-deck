@@ -18,7 +18,7 @@ Chris Reed
 ---
 
 # But first – clone the repo here: 
-## <https://github.com/superbasicxyz/stirstack>
+## <https://github.com/seeReadCode/stirstack>
 
 ---
 
@@ -38,7 +38,6 @@ Chris Reed
 ## ...to React/Microservices/BFF
 ## ...to Liveview/StimulusReflex
 
-c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.zone/contemporary-front-end-architectures-fb5b500b0231)
 
 ---
 
@@ -52,10 +51,14 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 
 ---
 
+c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.zone/contemporary-front-end-architectures-fb5b500b0231)
+
+---
+
 # Prior art 
 
 - [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html)
-- [Rails Hotwire](https://hotwired.dev/)
+- [Rails Hotwire](https://hotwired.dev/) and [StimulusReflex](https://docs.stimulusreflex.com/)
 - [Laravel Livewire](https://laravel-livewire.com/)
 - [Django Unicorn](https://www.django-unicorn.com/)
 - Alternatively – [Next.js](https://nextjs.org/), [MobX](https://mobx.js.org/react-integration.html), [Remix](https://remix.run/), and [SvelteKit](https://kit.svelte.dev/)
@@ -68,7 +71,13 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 
 # More generally
 
-> The hardest part of the software task is arriving at a complete and consistent specification, and much of the essence of building a program is in fact the debugging of the specification. ...
+Better productivity via...
+
+- Reliability
+- Simplicity
+- Comprehensibility
+
+>  ...To the furnish all the constructs the programmer imagines in the abstract program...
 >
 >–[Fred Brooks: No Silver Bullet](https://web.archive.org/web/20160910002130/http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 
@@ -183,7 +192,9 @@ I'm Chris Reed, a principal at [Super Basic](https://www.superbasic.xyz) and you
 ---
 
 # STIR stack
-## brings the Rails MVC stack and community into 2022 with concise forward looking components and a simple client/server protocol
+## brings the MVC stack and community into the present with concise forward looking components and a simple client/server protocol
+## with an approach tried, true, tested but enhanced to _feel_ like a "modern SPA"
+
 
 ---
 
@@ -316,8 +327,6 @@ end
 ---
 
 # So what does this look like?
-## ALL KILLER – NO FILLER
-
 - HTTP first, then XHR (Inertia)
 - Form helpers with and controller tweaks for Inertia
 - Validation through Rails-Inertia-Svelte
@@ -328,13 +337,10 @@ end
 ---
 
 # To preview
-- Form Validation
-- Layouts and Modal 
-- Optimistic UI Example TODO
-
----
-
-# Q & A
+- Form Component CRUD
+- ...with a modal
+- ...with nesting
+- TODO Optimistic UI Example 
 
 ---
 
@@ -353,34 +359,34 @@ end
 ---
 
 # Later for the STIRstack 1/2
-- Demo or starter template?
-- Maintain repo?
-- Heroku Deploy?
-- Websockets?
-- Dig in on the tech talk (abstraction weight, benefits)
+- Promotion
+- Deeper talk
+- Maintain repo
+- Docker
+- Websockets? Realtime? Offline?
 
 ---
 
 # Later for the STIRstack 2/2
-- [Inertia Svelte SSR](https://inertiajs.com/server-side-rendering)
-- [Inertia Rails SSR](https://github.com/inertiajs/inertia-rails/pull/73)
-- [Typescript](https://storck.io/posts/adding-typescript-to-svelte-with-webpacker/)
+- [Inertia Svelte SSR](https://inertiajs.com/server-side-rendering) / [Inertia Rails SSR](https://github.com/inertiajs/inertia-rails/pull/73)
 - [Tailwind 3.0 Upgrade](https://tailwindcss.com/blog/tailwindcss-v3) and [Rails 7 Upgrade](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision)
+- [Typescript](https://storck.io/posts/adding-typescript-to-svelte-with-webpacker/)
 - [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/) with [Dry Monads](https://hanamimastery.com/episodes/7-untangle-your-app-with-dry-monads) 
+- [Local first](https://www.inkandswitch.com/local-first/)
 
 ---
 
 # Thanks
 ## [@christoomey](https://twitter.com/christoomey?lang=en) and [bikeshed.fm](https://bikeshed.fm/)
-- [@willsommers](https://github.com/Will-Sommers)
-- [@_jameswpierce](https://twitter.com/_jameswpierce)
+## [@willsommers](https://github.com/Will-Sommers)
+## [@_jameswpierce](https://twitter.com/_jameswpierce)
 
 
 ---
 
 # and here are some follow ups
 
-- [Learn more Svelte here](https://svelte.dev/examples/hello-world) and [see it in action](https://madewithsvelte.com/)
+- [Learn more Svelte here](https://svelte.dev/examples/hello-world) and [see it in action](https://madewithsvelte.com/) and ooh [the compiler](https://lihautan.com/the-svelte-compiler-handbook/)
 - [Learn more Tailwind](https://github.com/aniftyco/awesome-tailwindcss)
 - [See more Inertia](https://builtwithinertia.com/)
 - [See more Rails](https://prograils.com/top-10-famous-sites-built-with-ruby-on-rails)
