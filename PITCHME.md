@@ -204,7 +204,7 @@ Let's you build reusable, best practice UI with minimal boilerplate and awesome 
 
 - A _component_ framework — like React or Vue
 - "a language for describing reactive user interfaces"
-- shifts work from run time to build time "converting your components into highly efficient imperative code that **surgically** updates the DOM"
+- shifts work from run time to build time "converting your [declaritive code and] components into highly efficient imperative code that **surgically** updates the DOM"
 - built-in accessibility and animations
 - [❤️ by devs as per SO](https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-web-frameworks)
 ### 🙇‍♂️ Rich Harris, [@Rich_Harris](https://twitter.com/Rich_Harris), ex-NYT, now Vercel
