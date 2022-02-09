@@ -12,12 +12,12 @@ theme: your-theme
 Full Stack DFW
 2022.02.09
 
-Chris Reed 
+Chris Reed
 [@seereadnow](https:///twitter.com/seereadnow)
 
 ---
 
-# But first – clone the repo here: 
+# But first – clone the repo here:
 ## <https://github.com/seeReadCode/stirstack>
 
 ---
@@ -33,7 +33,7 @@ Chris Reed
 
 # From one size fits all HTML...
 ## ...to Sessions/JQuery
-## ...to Polyfills/JSONP/Turbolinks 
+## ...to Polyfills/JSONP/Turbolinks
 ## ...to API/JWT
 ## ...to React/Microservices/BFF
 ## ...to Liveview/StimulusReflex
@@ -46,7 +46,7 @@ Chris Reed
 ---
 
 >  None of these solutions are silver bullets: I’ve worked with overly-strict REST APIs, optimization-hungry GraphQL APIs, and hand-crafted SQL APIs. But no option really lets a web app be careless about its data-fetching layer. Web applications can’t sit on top of independently-designed APIs: to have a chance at performance, **the application and its datasource need to be designed as one**.
-> 
+>
 >-[Tom MacWright: SPA Fatigue](https://macwright.com/2020/05/10/spa-fatigue.html)
 
 ---
@@ -55,7 +55,7 @@ c.f. [Contemporary Front-end Architectures: How we got here](https://blog.webf.z
 
 ---
 
-# Prior art 
+# Prior art
 
 - [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html)
 - [Rails Hotwire](https://hotwired.dev/) and [StimulusReflex](https://docs.stimulusreflex.com/)
@@ -84,9 +84,9 @@ Better productivity via...
 ---
 
 # How do we build better?
-## 👋 from "Hello World"... 
-## 🏁 ...to MVP 
-## 🚀  ...to Go-to-Market 
+## 👋 from "Hello World"...
+## 🏁 ...to MVP
+## 🚀  ...to Go-to-Market
 ## 🎰 ...to Scale
 
 \* w/ a small team for a SaaS product needing back-end services
@@ -157,7 +157,7 @@ Better productivity via...
 ## and less...
 - Dev pain/desertion
 - Horizontal teams
-- Bugs 
+- Bugs
 
 ![bg left contain](./assets/blast.gif)
 
@@ -202,13 +202,13 @@ I'm Chris Reed, a principal at [Super Basic](https://www.superbasic.xyz) and you
 
 Let's you build reusable, best practice UI with minimal boilerplate and awesome performance.
 
-- A _component_ framework — like React or Vue 
+- A _component_ framework — like React or Vue
 - "a language for describing reactive user interfaces"
 - shifts work from run time to build time "converting your components into highly efficient imperative code that **surgically** updates the DOM"
 - built-in accessibility and animations
 - [❤️ by devs as per SO](https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-web-frameworks)
 ### 🙇‍♂️ Rich Harris, [@Rich_Harris](https://twitter.com/Rich_Harris), ex-NYT, now Vercel
-### c.f. 📖 [What is Svelte?](https://gist.github.com/Rich-Harris/0f910048478c2a6505d1c32185b61934) 
+### c.f. 📖 [What is Svelte?](https://gist.github.com/Rich-Harris/0f910048478c2a6505d1c32185b61934)
 
 ---
 
@@ -294,7 +294,7 @@ Simplifies the contract between server and client
 </form>
 
 <a href="/" use:inertia>Home</a>
-  
+
 ```
 ---
 
@@ -302,10 +302,9 @@ Simplifies the contract between server and client
 
 Server side MVC framework with lots of convention over configuration
 
-- Use HTTP
 - Forms “just work” and are connected to your DB via modes which are all generated via a CLI. Validations just work. Lean on the ORM.
 - Security comes “for free” with built in CSRF.
-- Components previously built with partials. 
+- Big community, lots of functionality to use and extend
 
 ### 🙇‍♂️ to David Heinemeier Hansson, [@dhh](https://twitter.com/dhh)
 
@@ -335,12 +334,25 @@ end
 - Model, ORM, Routing via Rails
 
 ---
+![bg contain](assets/model.png)
+
+---
+
+![bg contain](assets/controller.png)
+
+
+---
+
+![bg contain](assets/view.png)
+
+---
+
 
 # To preview
 - Form Component CRUD
 - ...with a modal
 - ...with nesting
-- TODO Optimistic UI Example 
+- TODO Optimistic UI Example
 
 ---
 
@@ -348,7 +360,7 @@ end
 
 ---
 
-# Really dig it? 
+# Really dig it?
 - Let me know how to improve the talk!
 - [Contribute to the repo](https://github.com/superbasicxyz/stirstack)
 - Tweet your experience w/ #STIRstack
@@ -371,7 +383,7 @@ end
 - [Inertia Svelte SSR](https://inertiajs.com/server-side-rendering) / [Inertia Rails SSR](https://github.com/inertiajs/inertia-rails/pull/73)
 - [Tailwind 3.0 Upgrade](https://tailwindcss.com/blog/tailwindcss-v3) and [Rails 7 Upgrade](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision)
 - [Typescript](https://storck.io/posts/adding-typescript-to-svelte-with-webpacker/)
-- [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/) with [Dry Monads](https://hanamimastery.com/episodes/7-untangle-your-app-with-dry-monads) 
+- [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/) with [Dry Monads](https://hanamimastery.com/episodes/7-untangle-your-app-with-dry-monads)
 - [Local first](https://www.inkandswitch.com/local-first/)
 
 ---
